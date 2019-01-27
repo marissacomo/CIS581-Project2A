@@ -1,0 +1,11 @@
+Marissa Como
+Project2A
+README.txt
+
+I colloborated in solving problems with Vasu Mahesh and Zach Corse for this project. We worked through the image morphing steps on a whiteboard. A picture of the white board can be found in the project folder I submitted. 
+
+I have created a "results" folder, which has the .gif results of my image morphings. Note: Zach, Vasu, and I used pictures of ourselves to morph together. I also used pictures of my family and myself. 
+
+If you run main.py, that is a file I created. It runs click_correspondences.py, morph_tri.py and creates the .gifs. My project passes when you run "python3 test_script.py". My project created the correct .gif of the project2_testimg.png when you run "python3 eval-morphing.py".
+
+Note: In morph_tr.py, I used the matlabplot.tri to do Delauny triangulation. This works, but there is a bug where occasionally the error "Triangulation is invalid" will occur during the "get_trifinder()" step at line 128. I believe this occassionally occurs depending on the placement of the red dots during click correspondences. I figured out how to correctly place the dots to get that error to not happen.
